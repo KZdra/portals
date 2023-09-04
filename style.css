@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #333  ;
+}
+/*PER NAVBARAN JAN DI OPREK*/
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 100px;
+    padding: 19px;
+}
+
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px; 
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ff9900; 
+}
+
+
+.banner img {
+    width: 100%;
+    max-height: auto;
+}
+
+.but{
+    background-color: black;
+    padding: 10px;
+    font-family: sans-serif;
+    border-radius: 11px;
+}
+
+.but:hover {
+    background-color: whitesmoke;
+    color: white;
+    transition: ease-in-out 0.3s;
+}
+
+.containerH h2 {
+    background-color: #333;
+    height: auto;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-family: helvetica;
+}
+
+.containerH p {
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: larger;
+}
+
+.logoA{
+    display: flex;
+    justify-content: center;
+}
+
+.imgjero {
+    margin-right: 550px;
+    width: 10px;
+    height: 100px;
+}
+
+
+.polaroidcont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    column-gap: 50px;
+}
+
+.polaroidbox {
+    background-color: whitesmoke;
+    height: 320px;
+    box-shadow: 15px 15px 16px black;
+}
+
+.polaroidbox img {
+    padding: 15px;
+    width: 250px;
+    height: 200px;
+}
+
+.poltxt {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.containerG {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.containerG h2 {
+    color: white;
+    font-size: 50px;
+}
