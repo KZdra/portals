@@ -126,3 +126,31 @@ body {
     color: white;
     font-size: 50px;
 }
+
+
+
+/*media*/
+@media (max-width: 768px) {
+    .polaroidcont {
+        flex-direction: column; /* Mengubah arah tata letak menjadi kolom */
+        align-items: center; /* Pusatkan elemen dalam kolom */
+        column-gap: 0px; /* Hapus jarak antar kolom */
+        height: auto; /* Tinggi otomatis */
+    }
+
+    .polaroidcont > * {
+        margin-bottom: 20px; /* Sesuaikan nilai margin sesuai keinginan Anda */
+    }
+    
+    .imgjero {
+        width: 10px;
+        height: 100px;
+    }
+
+    .logoA{
+        display: flex;
+        justify-content: center;
+        margin-right: 40px;
+    }
+}
+
