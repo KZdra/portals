@@ -129,17 +129,16 @@ body {
 
 
 
-/*media*/
+/*media KHUSUS POTRAIT*/
 @media (max-width: 768px) {
     .polaroidcont {
-        flex-direction: column; /* Mengubah arah tata letak menjadi kolom */
-        align-items: center; /* Pusatkan elemen dalam kolom */
-        column-gap: 0px; /* Hapus jarak antar kolom */
-        height: auto; /* Tinggi otomatis */
+        flex-direction: column; 
+        align-items: center; 
+        height: auto; 
     }
 
     .polaroidcont > * {
-        margin-bottom: 20px; /* Sesuaikan nilai margin sesuai keinginan Anda */
+        margin-bottom: 20px;
     }
     
 
