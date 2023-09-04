@@ -142,15 +142,18 @@ body {
         margin-bottom: 20px; /* Sesuaikan nilai margin sesuai keinginan Anda */
     }
     
-    .imgjero {
-        width: 10px;
-        height: 100px;
-    }
+
 
     .logoA{
+        padding-top: 10px;
         display: flex;
+        width: 9px;
         justify-content: center;
-        margin-right: 40px;
+        margin-left: 280px;
+    }
+
+    .logoA img {
+        height: 70px;
     }
 }
 
