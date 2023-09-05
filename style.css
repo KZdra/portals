@@ -92,6 +92,7 @@ body {
 
 
 .polaroidcont {
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,7 +101,8 @@ body {
 }
 
 .polaroidbox {
-    background-color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.829);
+    filter: sepia(.5);
     height: 320px;
     box-shadow: 15px 15px 16px black;
 }
@@ -155,4 +157,185 @@ body {
         height: 70px;
     }
 }
+
+
+.imglogoN {
+    display: flex;
+    justify-content: center;
+}
+
+.news {
+    margin-top:390px;
+}
+.newscont {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    height: 600px;
+}
+
+.newscard {
+    box-shadow: 14px 14px 10px;
+    padding-top: 10px;
+    margin-left: 20px;
+    height: 550px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.829);
+    filter: sepia(.5);
+    display: flex;
+    border-radius: 12px;
+
+}
+
+.imgnews img {
+    padding: 20px;
+    width: 300px;
+}
+
+.artl {
+    font-weight: medium;
+    padding-top: 20px;
+}
+
+
+
+.logoformjero{
+    display: flex;
+    justify-content: center;
+}
+
+.containerF {
+    padding-top: 90px;
+    height: 600px;
+}
+
+.futer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    height: 60px;
+    background-color: #4b4b4b;
+}
+
+.txtform {
+    padding-top: 13px;
+    padding-right: 13px;
+    color: rgb(128, 128, 128);
+}
+.imghiji img {
+    padding-top: 3px;
+    padding-left: 3px;
+    height: 50px;
+}
+/* Form Section */
+
+.form-container {
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.932);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+    border: 1px solid rgba(255, 255, 255, 0.13);
+     width: 500px;
+     height: 400px;
+     padding-left: 2%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto;
+ }
+ 
+ .form-group {
+     margin-bottom: 10px;
+     margin-right: 5px;
+ }
+ 
+ label {
+     display: flex;
+     margin-bottom: 5px;
+     font-weight: bold;
+   }
+ 
+   input[type="text"],
+   input[type="number"],
+   input[type="email"] {
+     width: 300px;
+     padding: 8px;
+     border: 2px solid #9ACBDE;
+     border-radius: 4px;
+     outline: none;
+   }
+ 
+   input[type="text"]:focus,
+ input[type="number"]:focus,
+ input[type="email"]:focus {
+   outline: none;
+   border-color: blue; 
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+ }
+ 
+ .custom-select {
+     position: relative;
+     margin-right: 1px;
+     width: 320px;
+     background-color: #9ACBDE;
+     border: 2px solid #9ACBDE;
+     border-radius: 5px;
+     overflow: hidden;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   }
+ 
+ select {
+     width: 100%;
+   padding: 10px;
+   border: 1px solid #9ACBDE;
+   border-radius: 9px;
+   appearance: none;
+   cursor: pointer;
+ }
+ 
+ select:focus {
+     outline: none;
+   }
+   
+   select option {
+     padding: 10px;
+     background-color: #fff;
+     color: #333;
+   }
+   
+   select option:hover {
+     background-color: #f0f0f0;
+   }
+   
+   /* Custom arrow icon */
+   .custom-select::after {
+     content: '\25BC';
+     position: absolute;
+     top: 50%;
+     right: 15px;
+     transform: translateY(-50%);
+     pointer-events: none;
+   }
+ 
+   button {
+     margin-top: 3px;
+     color: black;
+     text-shadow: #333;
+     width: 90px;
+     height: 50px;
+     background-color:#9ACBDE;
+     border: 1px solid white;
+     border-radius: 9px;
+   }
+ 
+   button:hover {
+     background-color: #333333;
+     color: white;
+     font-weight: bold;
+     transition: ease-in 0.3s;
+     border: 2px solid white;
+   }
 
